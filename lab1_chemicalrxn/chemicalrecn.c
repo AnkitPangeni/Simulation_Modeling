@@ -5,12 +5,12 @@
  {
  
  int i=0; 
- float c1[1000],c2[1000],c3[1000];// C1 C2 C3 are the amount of chemicals Ch1 Ch2 Ch3 at time 0
+ float c1[1000],c2[1000],c3[1000];// C1 C2 C3 are the amount of chemicals Ch1 Ch2 Ch3
  float k1=0.025,k2=0.01,dt=0.001; // k1 k2 are the constants
- c1[0]=60.0,c2[0]=35.0,c3[0]=0.0;
- float t=0.0, time=100.0; // time represents the reaction time
+ c1[0]=60.0,c2[0]=35.0,c3[0]=0.0; // amount of chemicals Ch1 Ch2 Ch3 at time 0
+ float t=0.0, time=100.0; // time represents the total reaction time and t represents loop time, that increases by dt
  FILE *fp;
- fp=fopen("lab01.txt","w");
+ fp=fopen("lab01.txt","w");  // write the output data to lab01.txt
 	 
  while(t<=time) 
  {
