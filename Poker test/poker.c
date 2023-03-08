@@ -1,5 +1,5 @@
 
-// 4 digit poker test
+// 3 and 4 digit poker test
 #include <stdio.h>
 #define TAB_CHISQUARE_4D 9.49
 #define TAB_CHISQUARE_3D 5.99
